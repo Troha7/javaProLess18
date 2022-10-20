@@ -13,7 +13,7 @@ public abstract class User implements Observer {
 
   @Override
   public <T> void update(String name, T update) {
-    String massage = ">>> " + this.name + " has received " + name + "tweet :: " +  update;
+    String massage = ">>> " + this.name + " has received " + name + " tweet :: " +  update;
     System.out.println(massage);
   }
 
